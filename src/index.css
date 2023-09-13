@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.nav{
+  background-color: black;
+  text-align:center;
+  color:white;
+  padding:0.5rem 0;
+
+}
+.nav h2{
+  font-size: 2rem;
+}
+.form{
+  margin: 1.5rem 0;
+
+}
+form{
+  display:flex;
+}
+.form input{
+  flex: 2
+}
+.btn{
+  background-color:brown;
+  padding: 0.5rem 1rem;
+  color:white;
+
+}
+
+.container{
+  background-color: gray;
+  border-radius: 0.5rem;
+  width:100%
+  
+}
+
+.todo li{
+  list-style: none;
+  padding: 1.5rem 1rem;
+  align-items:center;
+  display: flex;
+  justify-content:space-between;
+  color:white;
+}
+.todo button{
+  background-color:brown;
+  padding:0.5rem;
+  color:white;
+  border-radius:0.3rem
+  
+}
+
+.cl{
+  display:flex;
+  justify-content:center;
+  margin: 2rem 0;
+}
+.cl button{
+  background-color:red;
+  color:white;
+  padding:0.6rem 1.5rem;
+  border-radius: 0.3rem
+
+}
